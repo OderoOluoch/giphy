@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+.search {
+  display: flex;
+  border-radius: unset !important;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.search-input {
+  margin: 0 !important;
+  border-radius: 0.5rem !important;
+  width: 95%;
+  height: 5rem;
+}
+
+.search-button {
+  margin: 0 !important;
+  width: 10%;
+  background-color: #ff009d;
+  font-size: large;
+  color: white;
+  height: 5rem;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.navbar-nav{
+ font-weight: 700;
+}
